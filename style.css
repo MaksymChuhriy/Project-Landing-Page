@@ -4,6 +4,7 @@
     margin:0px;
     font-family: Roboto, sans-serif;
     
+    
 }
 .header, .footer, .start,.start-container{
     background-color: #1f2937;
@@ -13,7 +14,14 @@
 
 
 }
-
+.quote-container{
+    background-color: #e5e7eb;
+    padding:50px;
+    
+}
+.quote-text, .quote-author{
+    font-style:italic;
+}
 .footer{
     color:#e5e7eb;
     padding:10px;
