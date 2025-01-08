@@ -1,26 +1,33 @@
-.body{
+body{
+    margin: 0px;
     display:flex;
     flex-direction: column;
-    margin:0px;
     font-family: Roboto, sans-serif;
-    
+   
     
 }
 .header, .footer, .start,.start-container{
     background-color: #1f2937;
     color:#e5e7eb;
     display:flex;
-    
-
-
+    justify-content:space-evenly;
+    align-items:center;
 }
+
 .quote-container{
     background-color: #e5e7eb;
-    padding:50px;
+    padding:80px;
     
 }
 .quote-text, .quote-author{
     font-style:italic;
+    text-align:center;
+    font-size:30px;
+    
+}
+.quote-author{
+    padding-left:300px;
+    font-weight:550;
 }
 .footer{
     color:#e5e7eb;
@@ -29,6 +36,7 @@
 .header{
    justify-content: space-between;
    padding:10px;
+  
 }
 ul{
     list-style: none;
@@ -55,8 +63,8 @@ a{
 }
 .placeholder{
     background-color: aliceblue;
-    width:300px;
-    height:200px;
+    width:500px;
+    height:300px;
     margin:20px;
     
 }
